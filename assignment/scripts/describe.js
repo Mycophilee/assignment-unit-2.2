@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The variable is equal to Dane
+// if the name is Mary then it is true
+// if the name is not Mary the console log will be " (hi mary )"
+// if the name is not Mary the console log will be "(' How do you do?')"
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// making the variable called secret and a variable code equal to 123
+// if the code is true to 123, the condition will be super the code will be mulitplied by 2
+// if the code is less than 250 the secret will be duper
+// the console.log will say " 246"
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// the variable is called student, age of 34 and zip code of 55407
+// if they are a student and have the zip code more than 8000 console log will say west cosat
+// if the they are not a student or are under 30 console log will say " what are you hobbies"
+// if the student is true which it is, the console  log will say ( welcome to Prime!)
+// if none of the previous varialble worked the console log would say "how abou the weather?"
 
 //CODE
 /*
@@ -138,6 +139,9 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+// fix colorOne to blue - its written as 'red' when its set to blue
+//fix colorTwo to red - it's written as 'blue' when its set to red
+// fix : if (mix ===true) mix='purple'
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -151,6 +155,8 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+// || should change to && - because its both not or
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -166,4 +172,4 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
+// change line 170 (minAge to > age) to let under 21 individuals to receive console log " no entry"
